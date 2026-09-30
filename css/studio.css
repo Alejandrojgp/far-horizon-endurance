@@ -82,4 +82,39 @@ footer a{color:var(--gold-light);text-decoration:none}
 .compare a.card:hover{border-color:var(--gold)}
 .compare .ver{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
 #ok{display:none;margin-top:12px;font-size:14px;color:var(--graphite)}
-@media (max-width:860px){.callgrid,.grid2,.compare,.grid3{grid-template-columns:1fr}nav .links{display:none}.cta.ghost{margin-left:0;margin-top:10px;display:inline-flex}nav{top:56px}}
+@media (max-width:860px){
+  .callgrid,.grid2,.compare,.grid3{grid-template-columns:1fr}
+  nav .links{display:none}
+  .cta.ghost{margin-left:0;margin-top:10px;display:inline-flex}
+  nav{top:56px}
+}
+html.sahara{
+  --ink:#3A2E1C; --graphite:#5C4C32; --parchment:#FBF6EA; --sand:#F3E6C8; --dune:#E4D2A4;
+  --gold:#B8883A; --gold-light:#C9A24A; --paper:#FFFDF6; --night:#EFE4C4;
+}
+html.sahara body{background:var(--parchment);color:var(--ink)}
+html.sahara .studio{background:#F4E7C4;color:#6A5730;border-bottom:1px solid #E0C88A}
+html.sahara .studio b{color:#8A6A28}
+html.sahara .studio a{color:#6A5730;border-color:#D7BE86}
+html.sahara .studio a.on,html.sahara .studio a:hover{border-color:var(--gold);color:var(--ink);background:rgba(255,255,255,.45)}
+html.sahara nav{background:rgba(251,246,234,.88);border-bottom-color:var(--dune)}
+html.sahara .ribbon{background:#F0E0B4;color:#6A5730}
+html.sahara .ribbon b{color:#7A5A20}
+html.sahara .hero{color:var(--ink);background:linear-gradient(180deg,#FFF8E4 0%,#F6E4B4 38%,#E8C97A 72%,#D9B05C 100%)}
+html.sahara .hero img.bg{opacity:.42;mix-blend-mode:multiply}
+html.sahara .hero .veil{background:linear-gradient(180deg,rgba(255,248,228,.15) 0%,rgba(251,246,234,.18) 42%,rgba(251,246,234,.78) 100%)}
+html.sahara .kicker{color:#8A6A28}
+html.sahara .hero h1 em{color:#8A5A18}
+html.sahara .hero p.lead{color:rgba(58,46,28,.82)}
+html.sahara .cta{background:var(--gold);color:#2A2114}
+html.sahara .cta.ghost{color:var(--ink);border-color:rgba(58,46,28,.28)}
+html.sahara section.dark{background:linear-gradient(180deg,#F4E6BE 0%,#EBD6A4 100%);color:var(--ink)}
+html.sahara section.dark .lead,html.sahara section.dark .card p{color:rgba(58,46,28,.78)}
+html.sahara section.dark .mlabel,html.sahara section.dark h2 em{color:#8A5A18}
+html.sahara section.dark .card{background:rgba(255,253,246,.55);border-color:rgba(184,136,58,.22)}
+html.sahara section.alt{background:var(--sand)}
+html.sahara .photo{background:#E8D09A;border-color:var(--dune)}
+html.sahara footer{background:#EFE0B6;color:#6A5730}
+html.sahara footer .wordmark{color:var(--ink)}
+html.sahara footer a{color:#8A5A18}
+html.sahara button[type=submit]{background:#3A2E1C;color:#FBF6EA}

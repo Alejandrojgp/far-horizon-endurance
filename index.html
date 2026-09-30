@@ -3,168 +3,63 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Far Horizon Endurance · Ultrarunning coaching</title>
-<meta name="description" content="Boutique 1:1 ultrarunning coaching for masters athletes. Remote, in English and Spanish. Founding cohort forming. Public launch 1 November 2026." />
-<meta name="theme-color" content="#1C1D22" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Far Horizon · Review studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<style>
-:root{--ink:#1C1D22;--graphite:#3A3A3F;--parchment:#F4EFE6;--sand:#E8E1D4;--dune:#D8CDB8;--gold:#A8864C;--gold-light:#C4A366;--paper:#FFFFFF;--serif:"Instrument Serif",serif;--sans:"Manrope",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--parchment);color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.65}
-.i-es{display:none}html[data-lang="es"] .i-es{display:revert}html[data-lang="es"] .i-en{display:none}
-.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
-nav{position:sticky;top:0;z-index:50;background:rgba(244,239,230,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--dune)}
-nav .wrap{display:flex;align-items:center;gap:16px;height:62px}
-.wordmark{font-family:var(--serif);font-size:20px;text-decoration:none;color:var(--ink)}
-.wordmark em{color:var(--gold);font-style:normal}
-nav .links{display:flex;gap:2px;margin-left:auto}
-nav a{color:var(--graphite);text-decoration:none;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;border-radius:999px}
-nav a:hover{background:var(--sand);color:var(--ink)}
-.langs{display:flex;gap:2px;border:1px solid var(--dune);border-radius:999px;padding:2px}
-.langs button{border:0;background:transparent;font-family:var(--mono);font-size:11px;padding:5px 11px;border-radius:999px;cursor:pointer;color:var(--graphite)}
-.langs button.on{background:var(--ink);color:var(--parchment)}
-.ribbon{background:var(--ink);color:rgba(244,239,230,.72);font-family:var(--mono);font-size:10.5px;letter-spacing:.10em;text-transform:uppercase;text-align:center;padding:8px 16px}
-.ribbon b{color:var(--gold-light);font-weight:500}
-.hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;color:var(--parchment);overflow:hidden;background:#2a241c}
-.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 42%}
-.hero .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(28,29,34,.18),rgba(28,29,34,.28) 40%,rgba(28,29,34,.78))}
-.hero .wrap{position:relative;z-index:2;padding:0 28px 72px}
-.kicker{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-light)}
-.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(42px,7vw,84px);line-height:1.02;margin:.28em 0 .28em}
-.hero p.lead{max-width:36em;color:rgba(244,239,230,.84);font-size:18px;margin:0 0 28px}
-.cta{display:inline-flex;align-items:center;background:var(--gold);color:var(--ink);text-decoration:none;font-family:var(--mono);font-size:12px;letter-spacing:.10em;text-transform:uppercase;padding:13px 20px;border-radius:999px}
-.cta.ghost{background:transparent;color:var(--parchment);border:1px solid rgba(244,239,230,.35);margin-left:10px}
-.herometa{display:flex;flex-wrap:wrap;gap:1px;margin-top:40px;max-width:720px;background:rgba(244,239,230,.14)}
-.herometa .hs{flex:1 1 160px;background:rgba(28,29,34,.35);backdrop-filter:blur(6px);padding:14px 16px}
-.herometa .n{font-family:var(--serif);font-size:22px}
-.herometa .l{font-family:var(--mono);font-size:9.5px;letter-spacing:.10em;text-transform:uppercase;color:rgba(244,239,230,.58);margin-top:3px}
-section{padding:84px 0}section.alt{background:var(--sand)}section.dark{background:var(--ink);color:var(--parchment)}
-h2{font-family:var(--serif);font-weight:400;font-size:clamp(30px,4.2vw,46px);line-height:1.12;margin:.2em 0 .45em;max-width:18em}
-h3{font-family:var(--serif);font-weight:400;font-size:24px;margin:0 0 .3em}
-.lead{max-width:700px;color:var(--graphite);font-size:17.5px}section.dark .lead{color:rgba(244,239,230,.78)}
-.mlabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}section.dark .mlabel{color:var(--gold-light)}
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:36px}
-.step{background:var(--paper);border:1px solid var(--dune);padding:22px 20px}section.dark .step{background:rgba(244,239,230,.04);border-color:rgba(244,239,230,.12)}
-.step .num{font-family:var(--mono);font-size:11px;color:var(--gold);letter-spacing:.12em}
-.step p{color:var(--graphite);font-size:14.5px;margin:.55em 0 0}section.dark .step p{color:rgba(244,239,230,.72)}
-.who{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;margin-top:36px}
-.card{background:var(--paper);border:1px solid var(--dune);padding:26px}
-ul.clean{margin:.4em 0 0;padding-left:1.15em;color:var(--graphite);font-size:15px}ul.clean li{margin:.4em 0}
-.photo{margin:0;border:1px solid var(--dune);background:var(--paper);overflow:hidden}
-.photo img{display:block;width:100%;height:auto}
-.photo figcaption{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--graphite);padding:10px 14px;border-top:1px solid var(--dune)}
-.coach{display:grid;grid-template-columns:minmax(240px,380px) 1fr;gap:36px;align-items:center}
-.prose p{color:var(--graphite);margin:0 0 1em}
-blockquote{font-family:var(--serif);font-style:italic;font-size:26px;line-height:1.3;margin:0 0 18px}
-form{display:grid;gap:14px}
-label{font-family:var(--mono);font-size:10.5px;letter-spacing:.10em;text-transform:uppercase;color:var(--graphite);display:grid;gap:6px}
-input,select,textarea{font-family:var(--sans);font-size:15.5px;padding:12px 13px;border:1px solid var(--dune);background:var(--paper);color:var(--ink)}
-textarea{min-height:110px;resize:vertical}
-.consent{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--graphite);letter-spacing:0;text-transform:none;font-family:var(--sans);line-height:1.45}
-button[type=submit]{justify-self:start;background:var(--ink);color:var(--parchment);border:0;font-family:var(--mono);font-size:12px;letter-spacing:.10em;text-transform:uppercase;padding:14px 22px;border-radius:999px;cursor:pointer}
-.fine{font-family:var(--mono);font-size:11px;color:var(--graphite);line-height:1.7;margin-top:10px}
-footer{background:var(--ink);color:rgba(244,239,230,.62);padding:52px 0 64px;font-size:13.5px}
-footer .wordmark{color:var(--parchment);font-size:22px}footer a{color:var(--gold-light);text-decoration:none}
-.footgrid{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-top:22px}
-.callgrid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
-@media (max-width:860px){.callgrid,.who,.coach{grid-template-columns:1fr}nav .links{display:none}.steps{grid-template-columns:1fr 1fr}.cta.ghost{margin-left:0;margin-top:10px;display:inline-flex}}
-@media (max-width:520px){.steps{grid-template-columns:1fr}}
-</style>
+<link rel="stylesheet" href="css/studio.css" />
 </head>
 <body>
-<nav><div class="wrap">
-<a class="wordmark" href="#">Far Horizon <em>Endurance</em></a>
-<div class="links">
-<a href="#method"><span class="i-en">Method</span><span class="i-es">Método</span></a>
-<a href="#who"><span class="i-en">For whom</span><span class="i-es">Para quién</span></a>
-<a href="#coach">Coach</a>
-<a href="#call"><span class="i-en">Discovery call</span><span class="i-es">Llamada</span></a>
-</div>
-<div class="langs"><button id="b-en" class="on" type="button" onclick="setLang('en')">EN</button><button id="b-es" type="button" onclick="setLang('es')">ES</button></div>
-</div></nav>
-<div class="ribbon"><span class="i-en"><b>Founding cohort forming</b> · public launch 1 November 2026 · roster kept small</span><span class="i-es"><b>Cohorte fundacional en formación</b> · lanzamiento público 1 de noviembre 2026 · roster deliberadamente pequeño</span></div>
-<header class="hero">
-<img class="bg" alt="" src="img/horizon.jpg" />
-<div class="veil"></div>
-<div class="wrap">
-<div class="kicker"><span class="i-en">1:1 ultrarunning coaching</span><span class="i-es">Coaching 1:1 de ultrarunning</span></div>
-<h1><span class="i-en">The coaching I wish<br>I had been given.</span><span class="i-es">El coaching que me<br>hubiera gustado tener.</span></h1>
-<p class="lead"><span class="i-en">A boutique practice for masters athletes — first ultras, late-career bests, comebacks, and multi-stage races. Remote, in English and Spanish. Capacity first. The roster stays small on purpose.</span><span class="i-es">Una práctica boutique para atletas máster — primeros ultras, mejores marcas tardías, regresos y carreras por etapas. En remoto, en inglés y español. Primero la capacidad. El roster se mantiene pequeño a propósito.</span></p>
-<a class="cta" href="#call"><span class="i-en">Request a discovery call</span><span class="i-es">Pedir una llamada de descubrimiento</span></a>
-<a class="cta ghost" href="#method"><span class="i-en">Read the method</span><span class="i-es">Leer el método</span></a>
-<div class="herometa">
-<div class="hs"><div class="n">40–70</div><div class="l"><span class="i-en">Masters athletes</span><span class="i-es">Atletas máster</span></div></div>
-<div class="hs"><div class="n">EN + ES</div><div class="l"><span class="i-en">Remote worldwide</span><span class="i-es">Remoto en todo el mundo</span></div></div>
-<div class="hs"><div class="n">8–12</div><div class="l"><span class="i-en">Roster cap</span><span class="i-es">Tope de roster</span></div></div>
-<div class="hs"><div class="n">1 Nov</div><div class="l"><span class="i-en">2026 public launch</span><span class="i-es">Lanzamiento público 2026</span></div></div>
-</div></div></header>
-<section id="method" class="dark"><div class="wrap">
-<div class="mlabel"><span class="i-en">The loop</span><span class="i-es">El ciclo</span></div>
-<h2><span class="i-en">Capacity first. The plan is built around the athlete — not the other way around.</span><span class="i-es">Primero la capacidad. El plan se construye alrededor del atleta — no al revés.</span></h2>
-<p class="lead"><span class="i-en">Nutrition, sleep, psychology and life load sit as first-class inputs, not as things a coach mentions in passing. The loop is how the week gets written, rewritten, and held to account.</span><span class="i-es">Nutrición, sueño, psicología y carga vital entran como insumos de primer orden, no como algo que el coach menciona de pasada. El ciclo es cómo se escribe, se reescribe y se rinde cuentas de cada semana.</span></p>
-<div class="steps">
-<div class="step"><div class="num">01 · ASSESS</div><h3><span class="i-en">Assess</span><span class="i-es">Evaluar</span></h3><p><span class="i-en">History, load, sleep, fuel, terrain and the race itself — before a single week is written.</span><span class="i-es">Historia, carga, sueño, nutrición, terreno y la propia carrera — antes de escribir una sola semana.</span></p></div>
-<div class="step"><div class="num">02 · ARCHITECT</div><h3><span class="i-en">Architect</span><span class="i-es">Arquitectar</span></h3><p><span class="i-en">A plan that fits a working life. Volume, intensity and recovery sized to the person who has to live it.</span><span class="i-es">Un plan que cabe en una vida laboral. Volumen, intensidad y recuperación a la medida de quien tiene que vivirlo.</span></p></div>
-<div class="step"><div class="num">03 · ADAPT</div><h3><span class="i-en">Adapt</span><span class="i-es">Adaptar</span></h3><p><span class="i-en">The week moves when life moves. Illness, travel, work spikes and heat are inputs, not interruptions.</span><span class="i-es">La semana se mueve cuando se mueve la vida. Enfermedad, viajes, picos de trabajo y calor son insumos, no interrupciones.</span></p></div>
-<div class="step"><div class="num">04 · AUDIT</div><h3><span class="i-en">Audit</span><span class="i-es">Auditar</span></h3><p><span class="i-en">The course is audited before the block is. A DNF taught that lesson the expensive way.</span><span class="i-es">Se audita el recorrido antes que el bloque. Un DNF enseñó esa lección de la forma más cara.</span></p></div>
-</div></div></section>
-<section id="who"><div class="wrap">
-<div class="mlabel"><span class="i-en">Who it is for</span><span class="i-es">Para quién</span></div>
-<h2><span class="i-en">Masters athletes with a race that matters, and a life that does not pause for it.</span><span class="i-es">Atletas máster con una carrera que importa, y una vida que no se detiene por ella.</span></h2>
-<div class="who"><div>
-<p class="lead"><span class="i-en">Far Horizon is built for professionals between forty and seventy: first ultras, a late-career best, a comeback after injury or family years, a multi-stage desert or mountain race. Coaching is remote and bilingual. The cap is eight to twelve athletes so the week stays honest.</span><span class="i-es">Far Horizon está pensado para profesionales entre cuarenta y setenta años: un primer ultra, una mejor marca tardía, un regreso tras lesión o años de familia, una carrera por etapas en desierto o montaña. El coaching es remoto y bilingüe. El tope es de ocho a doce atletas para que la semana se mantenga honesta.</span></p>
-<ul class="clean">
-<li><span class="i-en">One coach. No hand-off to an assistant roster.</span><span class="i-es">Un solo coach. Sin ceder el roster a un asistente.</span></li>
-<li><span class="i-en">Plans live where you already train — TrainingPeaks or equivalent.</span><span class="i-es">Los planes viven donde ya entrenas — TrainingPeaks o equivalente.</span></li>
-<li><span class="i-en">A founding practice, presented as one. Proof before premium register.</span><span class="i-es">Una práctica fundacional, presentada como tal. Prueba antes que registro premium.</span></li>
-</ul></div>
-<figure class="photo"><img alt="Ultrarunner moving through desert dunes" src="img/alejandro-dunes.jpg" /><figcaption><span class="i-en">Alejandro García · desert stage racing</span><span class="i-es">Alejandro García · carreras por etapas en desierto</span></figcaption></figure>
-</div></div></section>
-<section id="coach" class="alt"><div class="wrap coach">
-<figure class="photo"><img alt="Trail shoe on desert rock at last light" src="img/shoe.jpg" /><figcaption>Almería · Belgium</figcaption></figure>
-<div class="prose">
-<div class="mlabel"><span class="i-en">The coach</span><span class="i-es">El coach</span></div>
-<h2>Alejandro García</h2>
-<blockquote><span class="i-en">An engineer who left an executive career at its peak, went looking for his limit across hundred-mile finish lines, and decided to build the coaching he wishes he had been given.</span><span class="i-es">Un ingeniero que dejó una carrera ejecutiva en su cúspide, salió a buscar su límite a través de metas de cien millas, y decidió construir el coaching que le hubiera gustado tener.</span></blockquote>
-<p><span class="i-en">Fifteen years of running. Close to a decade of ultras. UESCA-certified ultrarunning coach; the companion nutrition certification is in progress toward launch. Time is split between Almería and Belgium. The most instructive race on the résumé is a DNF — altitude and exposed terrain he had not trained for. That is why the method audits the course before it writes the week.</span><span class="i-es">Quince años corriendo. Cerca de una década de ultras. Coach de ultrarunning certificado por UESCA; la certificación compañera de nutrición avanza hacia el lanzamiento. El tiempo se reparte entre Almería y Bélgica. La carrera más instructiva del currículum es un DNF — altitud y terreno expuesto para los que no había entrenado. Por eso el método audita el recorrido antes de escribir la semana.</span></p>
-<p><span class="i-en">The founding cohort is forming now. Public launch is 1 November 2026. Hours are the scarce asset; the roster is capped so his own training, and yours, stay protected.</span><span class="i-es">La cohorte fundacional se está formando ahora. El lanzamiento público es el 1 de noviembre de 2026. Las horas son el activo escaso; el roster está limitado para que su propio entrenamiento, y el tuyo, queden protegidos.</span></p>
-</div></div></section>
-<section id="call"><div class="wrap callgrid">
-<div>
-<div class="mlabel"><span class="i-en">Next step</span><span class="i-es">Siguiente paso</span></div>
-<h2><span class="i-en">A discovery call for fit and rate.</span><span class="i-es">Una llamada de descubrimiento para encaje y tarifa.</span></h2>
-<p class="lead"><span class="i-en">No published price list. If the fit is mutual, we talk about the work, the week, and the rate. If it is not, you will hear that clearly. The form lands in Alejandro’s inbox.</span><span class="i-es">No hay lista de precios publicada. Si el encaje es mutuo, hablamos del trabajo, de la semana y de la tarifa. Si no lo es, lo oirás con claridad. El formulario llega a la bandeja de Alejandro.</span></p>
-<p class="fine"><span class="i-en">Reply within a few days. Founding seats are limited. Public launch 1 November 2026.</span><span class="i-es">Respuesta en unos días. Las plazas fundacionales son limitadas. Lanzamiento público el 1 de noviembre de 2026.</span></p>
-</div>
-<div class="card">
-<form action="https://formsubmit.co/alejandrojgarciap@hotmail.com" method="POST">
-<input type="hidden" name="_subject" value="Far Horizon — discovery call" />
-<input type="hidden" name="_captcha" value="false" />
-<input type="hidden" name="_template" value="table" />
-<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
-<label><span class="i-en">Name</span><span class="i-es">Nombre</span><input required name="name" autocomplete="name" /></label>
-<label><span class="i-en">Email</span><span class="i-es">Correo</span><input required type="email" name="email" autocomplete="email" /></label>
-<label><span class="i-en">Preferred language</span><span class="i-es">Idioma preferido</span>
-<select name="language"><option>English</option><option>Español</option><option>EN / ES</option></select></label>
-<label><span class="i-en">Next race or goal</span><span class="i-es">Próxima carrera o objetivo</span><input name="goal" /></label>
-<label><span class="i-en">A sentence on why now</span><span class="i-es">Una frase sobre el porqué ahora</span><textarea name="message"></textarea></label>
-<label class="consent"><input required type="checkbox" name="consent" value="yes" />
-<span class="i-en">I agree that Far Horizon Endurance may use this information only to reply about coaching fit. No mailing list.</span>
-<span class="i-es">Acepto que Far Horizon Endurance use esta información solo para responder sobre el encaje de coaching. Sin lista de correo.</span></label>
-<button type="submit"><span class="i-en">Send request</span><span class="i-es">Enviar solicitud</span></button>
-</form>
-</div></div></section>
-<footer><div class="wrap">
-<div class="wordmark">Far Horizon <em style="color:var(--gold-light);font-style:normal">Endurance</em></div>
-<div class="footgrid">
-<p><span class="i-en">Boutique 1:1 ultrarunning coaching. Remote. English and Spanish. Almería and Belgium.</span><span class="i-es">Coaching boutique 1:1 de ultrarunning. Remoto. Inglés y español. Almería y Bélgica.</span></p>
-<p>© 2026 Alejandro García<br><a href="mailto:alejandrojgarciap@hotmail.com">alejandrojgarciap@hotmail.com</a></p>
-</div>
-<p class="fine" style="color:rgba(244,239,230,.42);margin-top:28px;max-width:46em"><span class="i-en">Personal data from the form is used solely to answer your request. It is not sold or added to a marketing list. You may write at any time to have it deleted. Form delivery is handled by FormSubmit.</span><span class="i-es">Los datos del formulario se usan solo para responder a tu solicitud. No se venden ni se añaden a una lista de marketing. Puedes escribir en cualquier momento para pedir su eliminación. El envío lo gestiona FormSubmit.</span></p>
-</div></footer>
+<div class="studio"><div class="wrap">
+  <b>Private studio</b>
+  <span class="i-en">not production</span><span class="i-es">no es producción</span>
+  <a class="on" href="index.html">Hub</a>
+  <a href="a.html">A · Invitation</a>
+  <a href="b.html">B · House</a>
+  <a href="c.html">C · Life</a>
+  <div class="langs" style="margin-left:auto;border-color:rgba(244,239,230,.2)">
+    <button id="b-en" class="on" type="button" onclick="setLang('en')">EN</button>
+    <button id="b-es" type="button" onclick="setLang('es')">ES</button>
+  </div>
+</div></div>
+<section>
+  <div class="wrap notes">
+    <div class="mlabel"><span class="i-en">Working notes</span><span class="i-es">Notas de trabajo</span></div>
+    <h2><span class="i-en">Three public faces of the same practice.</span><span class="i-es">Tres caras públicas de la misma práctica.</span></h2>
+    <p class="lead"><span class="i-en">The first page read as a strategy memo. These versions keep the strategy off the page and speak to the people who might want in — and to the wider sport watching from the side.</span><span class="i-es">La primera página se leía como un memorándum de estrategia. Estas versiones dejan la estrategia fuera y hablan a quien podría querer entrar — y al deporte que observa desde un lado.</span></p>
+    <div class="compare">
+      <a class="card" href="a.html"><div class="ver">Version A</div><h3><span class="i-en">The invitation</span><span class="i-es">La invitación</span></h3><p><span class="i-en">Belonging. A small circle of athletes who travel far on purpose. Apply to the founding season.</span><span class="i-es">Pertenencia. Un círculo reducido de atletas que viajan lejos a propósito. Solicitar la temporada fundacional.</span></p></a>
+      <a class="card" href="b.html"><div class="ver">Version B</div><h3><span class="i-en">The house</span><span class="i-es">La casa</span></h3><p><span class="i-en">Craft and presence. Alejandro in first person. A house in the sport that organizers and brands can recognize.</span><span class="i-es">Oficio y presencia. Alejandro en primera persona. Una casa en el deporte que organizadores y marcas pueden reconocer.</span></p></a>
+      <a class="card" href="c.html"><div class="ver">Version C</div><h3><span class="i-en">The life</span><span class="i-es">La vida</span></h3><p><span class="i-en">The race held inside a working life. Quiet composure. Fit before rate.</span><span class="i-es">La carrera sostenida dentro de una vida laboral. Compostura quieta. Encaje antes que tarifa.</span></p></a>
+    </div>
+    <h3 style="margin-top:48px"><span class="i-en">What changed from the first pass</span><span class="i-es">Qué cambia respecto a la primera versión</span></h3>
+    <ul>
+      <li><span class="i-en">No coach confession as headline. Desire belongs to the reader.</span><span class="i-es">Sin confesión del coach como titular. El deseo pertenece a quien lee.</span></li>
+      <li><span class="i-en">No ages, no roster numbers, no named method.</span><span class="i-es">Sin edades, sin cifras de roster, sin método nombrado.</span></li>
+      <li><span class="i-en">Launch date is an opening, not a countdown gimmick.</span><span class="i-es">La fecha de lanzamiento es una apertura, no un truco de cuenta atrás.</span></li>
+      <li><span class="i-en">Inner work is spoken as mental resilience, flexible discipline, quiet composure — not “psychology.”</span><span class="i-es">El trabajo interior se dice como resiliencia mental, disciplina flexible, compostura quieta — no “psicología”.</span></li>
+    </ul>
+    <h3 style="margin-top:36px"><span class="i-en">Phrases I recommend for the inner work</span><span class="i-es">Frases que recomiendo para el trabajo interior</span></h3>
+    <ul>
+      <li><span class="i-en">Mental resilience — stays after the aid station closes.</span><span class="i-es">Resiliencia mental — permanece cuando cierra el avituallamiento.</span></li>
+      <li><span class="i-en">Flexible discipline — the week can move without the year collapsing.</span><span class="i-es">Disciplina flexible — la semana puede moverse sin que se caiga el año.</span></li>
+      <li><span class="i-en">Quiet composure — useful after midnight, not only on fresh legs.</span><span class="i-es">Compostura quieta — útil después de medianoche, no solo con piernas frescas.</span></li>
+      <li><span class="i-en">Practiced patience — the long nerve, not a mood.</span><span class="i-es">Paciencia practicada — el nervio largo, no un estado de ánimo.</span></li>
+      <li><span class="i-en">A mind that stays available — when the plan has to be rewritten at noon.</span><span class="i-es">Una mente que sigue disponible — cuando el plan hay que reescribirlo al mediodía.</span></li>
+    </ul>
+    <p class="fine" style="margin-top:36px"><span class="i-en">Production remains paused. Walk A, B and C and tell me which voice should lead — or which lines to steal from each.</span><span class="i-es">La producción sigue en pausa. Recorre A, B y C y dime qué voz debe liderar — o qué frases tomar de cada una.</span></p>
+  </div>
+</section>
 <script>
-function setLang(l){document.documentElement.lang=l;document.documentElement.setAttribute('data-lang',l);document.getElementById('b-en').classList.toggle('on',l==='en');document.getElementById('b-es').classList.toggle('on',l==='es');try{localStorage.setItem('fh-lang',l)}catch(e){}}
-(function(){try{var s=localStorage.getItem('fh-lang');if(!s&&navigator.language&&navigator.language.toLowerCase().startsWith('es'))s='es';if(s==='es')setLang('es')}catch(e){}})();
+function setLang(l){
+  document.documentElement.lang=l;
+  document.documentElement.setAttribute('data-lang',l);
+  document.getElementById('b-en').classList.toggle('on',l==='en');
+  document.getElementById('b-es').classList.toggle('on',l==='es');
+  try{localStorage.setItem('fh-lang',l)}catch(e){}
+}
+try{var s=localStorage.getItem('fh-lang'); if(s) setLang(s)}catch(e){}
 </script>
-</body></html>
+</body>
+</html>

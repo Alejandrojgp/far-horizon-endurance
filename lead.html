@@ -153,5 +153,6 @@
 function setLang(l){document.documentElement.lang=l;document.documentElement.setAttribute('data-lang',l);document.getElementById('b-en').classList.toggle('on',l==='en');document.getElementById('b-es').classList.toggle('on',l==='es');try{localStorage.setItem('fh-lang',l)}catch(e){}}
 try{var s=localStorage.getItem('fh-lang'); if(s) setLang(s)}catch(e){}
 </script>
+<script src="js/copy.js"></script>
 </body>
 </html>
